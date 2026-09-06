@@ -20,10 +20,10 @@ AI assistance is disclosed in `AI-USE-DECLARATION.md`.
 - Student name: **Bill Junior Lagani**
 - Student ID: **25576687**
 - GitHub username: **Bibs0231**
-- GitHub repository URL: **TO COMPLETE after creating your repository**
-- Published GitHub Pages URL: **TO COMPLETE after publishing**
-- Topic approval: **TO CONFIRM with lecturer if not already approved**
-- Due date in the handbook: **11 September 2026, 11:59 pm**
+- GitHub repository URL: **https://github.com/Bibs0231/png-digital-skills**
+- Published GitHub Pages URL: **https://bibs0231.github.io/png-digital-skills/**
+- Topic approval: **Pending approval by Lecturer**
+- Due date: **11 September 2026, 11:59 pm**
 
 ## Purpose and audience
 
@@ -45,17 +45,6 @@ The main user tasks are to understand the service, compare course topics and pra
 | `docs/BUILD-AND-SUBMIT.md` | Review, Git, publication and submission instructions             |
 | `docs/LEARNING-CHECKS.md`  | Code explanations, exercises and model answers                   |
 | `evidence/`                | Actual automated checks, source hashes and manual test checklist |
-
-The downloadable assessment package places the website files at its project root. The private demonstration's internal hosting checkout keeps these same public files under `dist/`; that internal hosting arrangement is not needed for GitHub Pages.
-
-## Run locally
-
-1. Extract the ZIP first. Do not open the HTML inside the compressed folder.
-2. Open the extracted project folder in Visual Studio Code or an approved text editor.
-3. Open `index.html` in a modern browser and follow the navigation links.
-4. Save an edit in the editor, then refresh the browser to see the change.
-
-No framework, package installation, JavaScript or build command is needed. A local server is optional. The relative file links work when the files remain together.
 
 ## HTML, accessibility and CSS
 
@@ -95,7 +84,3 @@ No student Git history is supplied. If adopting this draft, record one honest im
 - MDN, [The form element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/form) and [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation).
 
 Web documentation was checked on 5 September 2026 UTC. The site text and SVG diagram were drafted with ChatGPT for this educational example. No third-party photograph, logo, downloaded theme or template is used. The supplied textbook and course PDFs are not redistributed with this package.
-
-## Next assessments
-
-Continue the same website for A3 by adding your own responsive CSS, meaningful Flexbox and Grid layouts, and viewport evidence. For A4, consider a course filter and helpful form interaction as two purposeful JavaScript features. These are future ideas, not features already implemented.
