@@ -1,6 +1,6 @@
 # Manual browser tests - student completion required
 
-Date: 06 September 2026
+Date: 05 September 2026
 Browser: Google Chrome
 Test: Main navigation
 Result: PASS
