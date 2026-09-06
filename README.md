@@ -41,9 +41,6 @@ The main user tasks are to understand the service, compare course topics and pra
 | `css/styles.css`           | Shared basic typography, colour, spacing and form presentation   |
 | `images/learning-path.svg` | Original text-based learning diagram with alternative text       |
 | `AI-USE-DECLARATION.md`    | Accurate account of AI assistance plus student completion fields |
-| `docs/PROJECT-PLAN.md`     | Purpose, user stories, sitemap and acceptance checks             |
-| `docs/BUILD-AND-SUBMIT.md` | Review, Git, publication and submission instructions             |
-| `docs/LEARNING-CHECKS.md`  | Code explanations, exercises and model answers                   |
 | `evidence/`                | Actual automated checks, source hashes and manual test checklist |
 
 ## HTML, accessibility and CSS
@@ -68,9 +65,9 @@ Browser interaction, keyboard use, appearance, GitHub publication and incognito 
 
 ## Publication and development history
 
-Follow `docs/BUILD-AND-SUBMIT.md`. Publish the extracted project root from your GitHub repository using `main` and `/(root)`. The private demonstration link supplied with the package is for review; it is not a replacement for the required GitHub repository and lecturer-accessible published URL.
+The website is published from the `main` branch using GitHub Pages from the repository root. The published site and repository were tested in a private/incognito browser to confirm lecturer access.
 
-No student Git history is supplied. If adopting this draft, record one honest import commit that identifies AI assistance, then make and commit genuine student changes as you perform them. Do not split the supplied finished files into artificial historical stages or backdate commits.
+The project began from an AI-assisted draft. Subsequent commits record genuine student review, content changes, browser testing, HTML validation and publication.
 
 ## Sources and asset attribution
 

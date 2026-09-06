@@ -28,4 +28,4 @@ Automated local checks: 91 passed, 0 failed. See `source-checks.json` for indivi
 
 # Final HTML validation evidence
 
-Final validation checks done for index.html, courses.html & contact.html at 06-Sep-2026 @16:00pm and screen shots uploaded to /evidence folder
+Final validation checks done for index.html, courses.html & contact.html at 06-Sep-2026 @16:00pm & 17:55pm and screen shots uploaded to /evidence folder
