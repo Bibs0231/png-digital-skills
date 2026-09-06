@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Read the proposed service contact information and practise a course enquiry using an accessible HTML form.">
+    <title>Contact and Enquiry | PNG Digital Skills Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header>
+        <p class="site-name">PNG Digital Skills Hub</p>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html" aria-current="page">Contact / Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content" tabindex="-1">
+        <h1>Contact and course enquiry</h1>
+        <section aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Service contact information</h2>
+            <p><strong>Proposed base:</strong> Port Moresby, Papua New Guinea.</p>
+            <p><strong>Proposed enquiry channel:</strong> the course enquiry form below. This student concept has no operating office or monitored inbox. No real bookings or replies are provided.</p>
+        </section>
+
+        <section aria-labelledby="form-heading">
+            <h2 id="form-heading">Practise a course enquiry</h2>
+            <p id="form-help" class="notice">Use fictional details only. This practice form sends test values in the page URL and reloads this page. Values may appear in browser history and hosting logs. It does not send an email or create an enrolment.</p>
+            <p>Fields labelled "required" must be completed. Other fields are optional.</p>
+            <!-- GET demonstrates form encoding. A real service needs a secure backend. -->
+            <form id="enquiry-form" action="contact.html#practice-result" method="get" aria-describedby="form-help">
+                <fieldset>
+                    <legend>Your practice contact details</legend>
+                    <p>
+                        <label for="full-name">Full name (required)</label>
+                        <input id="full-name" name="full_name" type="text" autocomplete="name" minlength="2" maxlength="80" required>
+                    </p>
+                    <p>
+                        <label for="email">Email address (required)</label>
+                        <input id="email" name="email" type="email" autocomplete="email" maxlength="120" aria-describedby="email-help" required>
+                        <small id="email-help">Use a practice address such as learner@example.com.</small>
+                    </p>
+                    <p>
+                        <label for="phone">Telephone number (optional)</label>
+                        <input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="25" aria-describedby="phone-help">
+                        <small id="phone-help">Use a fictional number. Include the country code when practising an international format.</small>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Your learning interests</legend>
+                    <p>
+                        <label for="course">Course of interest (required)</label>
+                        <select id="course" name="course" required>
+                            <option value="">Choose a course</option>
+                            <option value="spreadsheets">Spreadsheet Foundations</option>
+                            <option value="reporting">Reporting Basics</option>
+                            <option value="web-design">Web Page Foundations</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="start-date">Preferred start date (optional)</label>
+                        <input id="start-date" name="start_date" type="date" aria-describedby="date-help">
+                        <small id="date-help">Practice preference only; no course date is reserved.</small>
+                    </p>
+                    <p>
+                        <label for="learners">Number of learners (required)</label>
+                        <input id="learners" name="learners" type="number" min="1" max="10" step="1" value="1" aria-describedby="learners-help" required>
+                        <small id="learners-help">Enter a whole number from 1 to 10.</small>
+                    </p>
+                    <fieldset>
+                        <legend>Preferred learning mode (required)</legend>
+                        <p class="choice"><input id="mode-online" name="learning_mode" type="radio" value="online" required> <label for="mode-online">Online learning</label></p>
+                        <p class="choice"><input id="mode-workshop" name="learning_mode" type="radio" value="workshop" required> <label for="mode-workshop">In-person workshop</label></p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Topics you would like help with (optional)</legend>
+                        <p class="choice"><input id="topic-files" name="topics" type="checkbox" value="files"> <label for="topic-files">Organising files</label></p>
+                        <p class="choice"><input id="topic-data" name="topics" type="checkbox" value="data"> <label for="topic-data">Working with data</label></p>
+                        <p class="choice"><input id="topic-web" name="topics" type="checkbox" value="web"> <label for="topic-web">Creating web pages</label></p>
+                    </fieldset>
+                    <p>
+                        <label for="message">What would you like to learn? (required)</label>
+                        <textarea id="message" name="message" rows="5" minlength="20" maxlength="600" aria-describedby="message-help" required></textarea>
+                        <small id="message-help">Write 20 to 600 characters. For example: I want to create a simple monthly sales report.</small>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Practice acknowledgement</legend>
+                    <p class="choice"><input id="practice-only" name="practice_only" type="checkbox" value="yes" required> <label for="practice-only">I am using fictional details and understand that this is a practice enquiry (required).</label></p>
+                </fieldset>
+                <button type="submit">Test enquiry form</button>
+            </form>
+        </section>
+
+        <section id="practice-result" aria-labelledby="result-heading">
+            <h2 id="result-heading">How the practice submission works</h2>
+            <p>The browser checks the form before submitting. If the entries pass those checks, this page reloads at this section with the test values in the address bar. This section is an explanation, not a receipt or confirmation of enrolment.</p>
+            <p>There is no application database or email service connected. <a href="contact.html#enquiry-form">Open a fresh practice form</a> or <a href="courses.html">return to the courses</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>PNG Digital Skills Hub | Papua New Guinea</p>
+        <p>2026 student project. Fictional educational service; no live enrolments.</p>
+        <p><a href="contact.html">Contact and enquiry information</a></p>
+    </footer>
+</body>
+</html>

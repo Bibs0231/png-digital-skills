@@ -1,0 +1,32 @@
+[
+  {
+    "file": "contact.html",
+    "checked_at_utc": "2026-09-05T14:00:16.024691+00:00",
+    "sha256": "a8b84bd498b7f9162e4efdc6724619f563c069f12f852c55418f47049135d2c2",
+    "checker": "https://validator.w3.org/nu/",
+    "version": "26.8.31",
+    "errors": 0,
+    "warnings": 0,
+    "messages": []
+  },
+  {
+    "file": "courses.html",
+    "checked_at_utc": "2026-09-05T14:00:16.059631+00:00",
+    "sha256": "4e61c978288a4c8d16580a8223389f82fead0a0f3e4b0004332e0964667fda95",
+    "checker": "https://validator.w3.org/nu/",
+    "version": "26.8.31",
+    "errors": 0,
+    "warnings": 0,
+    "messages": []
+  },
+  {
+    "file": "index.html",
+    "checked_at_utc": "2026-09-05T14:00:16.051384+00:00",
+    "sha256": "77ff2f1050a9a2be67af56a668e1e87f560178edf3332211754af13b030c2d17",
+    "checker": "https://validator.w3.org/nu/",
+    "version": "26.8.31",
+    "errors": 0,
+    "warnings": 0,
+    "messages": []
+  }
+]

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title description">
+  <title id="title">A three-stage learning path</title>
+  <desc id="description">Choose a course, practise a small task, then review the result and ask questions.</desc>
+  <rect width="720" height="340" fill="#edf5f8"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#172b3a">
+    <rect x="30" y="22" width="660" height="78" rx="4" fill="white" stroke="#12647a"/>
+    <text x="52" y="55" font-size="24" font-weight="bold">1. Choose a course</text>
+    <text x="52" y="81" font-size="19">Connect the topic to your study or work goal.</text>
+    <path d="M360 101 V118 M352 110 L360 118 L368 110" fill="none" stroke="#12647a" stroke-width="3"/>
+    <rect x="30" y="124" width="660" height="78" rx="4" fill="white" stroke="#12647a"/>
+    <text x="52" y="157" font-size="24" font-weight="bold">2. Practise a small task</text>
+    <text x="52" y="183" font-size="19">Create one useful result using fictional data.</text>
+    <path d="M360 203 V220 M352 212 L360 220 L368 212" fill="none" stroke="#12647a" stroke-width="3"/>
+    <rect x="30" y="226" width="660" height="88" rx="4" fill="white" stroke="#12647a"/>
+    <text x="52" y="261" font-size="24" font-weight="bold">3. Review and ask questions</text>
+    <text x="52" y="288" font-size="19">Check the result and explain what you learned.</text>
+  </g>
+</svg>

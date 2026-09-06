@@ -1,0 +1,66 @@
+/* A2: basic presentation only. Advanced layouts are reserved for A3. */
+* { box-sizing: border-box; }
+body {
+    max-width: 52rem;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.65;
+    color: #172b3a;
+    background-color: #ffffff;
+}
+header { border-bottom: 4px solid #12647a; padding-bottom: 1rem; }
+.site-name { font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem; }
+nav ul { list-style: none; margin: 0; padding: 0; }
+nav li { display: inline-block; margin: 0.25rem 1rem 0.25rem 0; }
+a { color: #075c77; text-underline-offset: 0.18em; }
+a:hover { text-decoration-thickness: 0.15em; }
+a[aria-current="page"] { font-weight: bold; text-decoration-thickness: 0.15em; }
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
+    outline: 3px solid #9b4a00;
+    outline-offset: 3px;
+}
+.skip-link { display: inline-block; margin-bottom: 0.75rem; }
+main { padding-top: 1rem; }
+h1 { font-size: 2rem; line-height: 1.25; }
+h2 { font-size: 1.4rem; line-height: 1.35; }
+h3 { font-size: 1.15rem; }
+section { margin: 2rem 0; }
+article { margin: 1.5rem 0; border-left: 3px solid #12647a; padding-left: 1rem; }
+figure { margin: 1rem 0; }
+img { max-width: 100%; height: auto; }
+figcaption, small { color: #405465; }
+figcaption { margin-top: 0.4rem; }
+.notice { background-color: #edf5f8; border-left: 4px solid #12647a; padding: 0.9rem; }
+table { width: 100%; border-collapse: collapse; }
+caption { text-align: left; font-weight: bold; margin-bottom: 0.5rem; }
+th, td { border: 1px solid #728695; text-align: left; padding: 0.55rem; }
+thead { background-color: #edf5f8; }
+fieldset { border: 1px solid #728695; margin: 1rem 0; padding: 1rem; min-width: 0; }
+legend { font-weight: bold; padding: 0 0.3rem; }
+label { display: block; font-weight: bold; margin-bottom: 0.3rem; }
+input, select, textarea {
+    font: inherit;
+    width: 100%;
+    padding: 0.55rem;
+    border: 1px solid #728695;
+    background-color: #ffffff;
+    color: #172b3a;
+}
+textarea { resize: vertical; }
+small { display: block; font-size: 0.9rem; margin-top: 0.25rem; }
+.choice input { width: auto; }
+.choice label { display: inline; font-weight: normal; }
+button, .button {
+    display: inline-block;
+    font: inherit;
+    font-weight: bold;
+    padding: 0.6rem 1rem;
+    border: 2px solid #07536b;
+    background-color: #07536b;
+    color: #ffffff;
+    cursor: pointer;
+}
+button:hover, .button:hover { background-color: #123f50; }
+footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #728695; font-size: 0.9rem; }

@@ -1,0 +1,463 @@
+{
+  "checked_at_utc": "2026-09-05T14:06:17.409495+00:00",
+  "scope": "Automated source/reference checks only; not a browser or accessibility audit.",
+  "passed": 91,
+  "failed": 0,
+  "checks": [
+    {
+      "file": "courses.html",
+      "check": "Unique IDs",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "One main and one h1",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Title and description",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "One current page link",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Shared three-page navigation",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "All image alternatives",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "No JavaScript or inline styles",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Local target css/styles.css",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Local target #main-content",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Fragment #main-content",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Local target index.html",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Local target courses.html",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Local target contact.html",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Local target #course-comparison",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Fragment #course-comparison",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Local target contact.html#enquiry-form",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Fragment contact.html#enquiry-form",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "Local target contact.html",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "ARIA references ['topics-heading']",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "ARIA references ['comparison-heading']",
+      "pass": true
+    },
+    {
+      "file": "courses.html",
+      "check": "ARIA references ['prepare-heading']",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Unique IDs",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "One main and one h1",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Title and description",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "One current page link",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Shared three-page navigation",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "All image alternatives",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "No JavaScript or inline styles",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Local target css/styles.css",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Local target #main-content",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Fragment #main-content",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Local target index.html",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Local target courses.html",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Local target contact.html",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Local target courses.html",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Local target images/learning-path.svg",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Local target courses.html#spreadsheets",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Fragment courses.html#spreadsheets",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Local target courses.html#reporting",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Fragment courses.html#reporting",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Local target courses.html#web-design",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Fragment courses.html#web-design",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Local target contact.html#enquiry-form",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Fragment contact.html#enquiry-form",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "Local target contact.html",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "ARIA references ['audience-heading']",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "ARIA references ['path-heading']",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "check": "ARIA references ['start-heading']",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Unique IDs",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "One main and one h1",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Title and description",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "One current page link",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Shared three-page navigation",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "All image alternatives",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "No JavaScript or inline styles",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Local target css/styles.css",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Local target #main-content",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Fragment #main-content",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Local target index.html",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Local target courses.html",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Local target contact.html",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Local target contact.html#practice-result",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Fragment contact.html#practice-result",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Local target contact.html#enquiry-form",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Fragment contact.html#enquiry-form",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Local target courses.html",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Local target contact.html",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: full-name",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: email",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: phone",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: course",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: start-date",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: learners",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: mode-online",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: mode-workshop",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: topic-files",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: topic-data",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: topic-web",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: message",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "Label and submitted name: practice-only",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "ARIA references ['contact-heading']",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "ARIA references ['form-heading']",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "ARIA references ['form-help']",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "ARIA references ['email-help']",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "ARIA references ['phone-help']",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "ARIA references ['date-help']",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "ARIA references ['learners-help']",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "ARIA references ['message-help']",
+      "pass": true
+    },
+    {
+      "file": "contact.html",
+      "check": "ARIA references ['result-heading']",
+      "pass": true
+    },
+    {
+      "file": "css/styles.css",
+      "check": "A2 basic CSS: no media queries, Flexbox or Grid",
+      "pass": true
+    },
+    {
+      "file": "images/learning-path.svg",
+      "check": "Well-formed SVG XML",
+      "pass": true
+    }
+  ]
+}
