@@ -1,15 +1,29 @@
 # PNG Digital Skills Hub - ISO229 Assessment 2
 
-This is an AI-assisted learning draft for a three-page HTML5 website. Review, customise and test it before submitting. The proposed theme still needs to meet the lecturer's topic-approval requirements.
+PNG Digital Skills Hub is a three-page HTML5 student website developed for
+ISO229 Web Design Assessment 2.
+
+The website demonstrates semantic HTML5 structure, accessible navigation,
+meaningful content, multimedia, a course comparison table, and an HTML5
+enquiry form with browser-based validation.
+
+The project is designed as a fictional educational service for beginners in
+Papua New Guinea who want to build practical digital skills for study,
+office work and small-business activities.
+
+This project began from an AI-assisted learning draft. I am reviewing,
+customising, testing and documenting the website before submission.
+AI assistance is disclosed in `AI-USE-DECLARATION.md`.
 
 ## Student and submission details
 
-- Student name: **TO COMPLETE**
-- Student ID: **TO COMPLETE**
+- Student name: **Bill Junior Lagani**
+- Student ID: **25576687**
+- GitHub username: **Bibs0231**
 - GitHub repository URL: **TO COMPLETE after creating your repository**
 - Published GitHub Pages URL: **TO COMPLETE after publishing**
 - Topic approval: **TO CONFIRM with lecturer if not already approved**
-- Due date in the handbook: **11 September 2026, 11:59 pm**. Confirm the LMS time zone and any later lecturer announcements.
+- Due date in the handbook: **11 September 2026, 11:59 pm**
 
 ## Purpose and audience
 
@@ -19,18 +33,18 @@ The main user tasks are to understand the service, compare course topics and pra
 
 ## Pages and files
 
-| File | Purpose |
-| --- | --- |
-| `index.html` | Home, intended audience and learning-path image |
-| `courses.html` | Three self-contained course articles and a comparison table |
-| `contact.html` | Contact context and substantial practice enquiry form |
-| `css/styles.css` | Shared basic typography, colour, spacing and form presentation |
-| `images/learning-path.svg` | Original text-based learning diagram with alternative text |
-| `AI-USE-DECLARATION.md` | Accurate account of AI assistance plus student completion fields |
-| `docs/PROJECT-PLAN.md` | Purpose, user stories, sitemap and acceptance checks |
-| `docs/BUILD-AND-SUBMIT.md` | Review, Git, publication and submission instructions |
-| `docs/LEARNING-CHECKS.md` | Code explanations, exercises and model answers |
-| `evidence/` | Actual automated checks, source hashes and manual test checklist |
+| File                       | Purpose                                                          |
+| -------------------------- | ---------------------------------------------------------------- |
+| `index.html`               | Home, intended audience and learning-path image                  |
+| `courses.html`             | Three self-contained course articles and a comparison table      |
+| `contact.html`             | Contact context and substantial practice enquiry form            |
+| `css/styles.css`           | Shared basic typography, colour, spacing and form presentation   |
+| `images/learning-path.svg` | Original text-based learning diagram with alternative text       |
+| `AI-USE-DECLARATION.md`    | Accurate account of AI assistance plus student completion fields |
+| `docs/PROJECT-PLAN.md`     | Purpose, user stories, sitemap and acceptance checks             |
+| `docs/BUILD-AND-SUBMIT.md` | Review, Git, publication and submission instructions             |
+| `docs/LEARNING-CHECKS.md`  | Code explanations, exercises and model answers                   |
+| `evidence/`                | Actual automated checks, source hashes and manual test checklist |
 
 The downloadable assessment package places the website files at its project root. The private demonstration's internal hosting checkout keeps these same public files under `dist/`; that internal hosting arrangement is not needed for GitHub Pages.
 
