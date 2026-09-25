@@ -158,6 +158,30 @@ footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #728695; fon
     background-color: var(--color-surface);
 }
 
+/* Course topic cards */
+.course-topics {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+}
+
+.course-topics > h2 {
+    margin-bottom: 0;
+}
+
+.course-topics article {
+    margin: 0;
+    padding: var(--space-lg);
+    border: 1px solid var(--color-border);
+    border-left: 4px solid var(--color-primary);
+    border-radius: var(--radius-md);
+    background-color: var(--color-surface);
+}
+
+.course-topics article h3 {
+    margin-top: 0;
+}
+
 @media (min-width: 48rem) {
 
     header {
@@ -173,6 +197,27 @@ footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #728695; fon
 
     .learning-steps {
     grid-template-columns: repeat(3, 1fr);
+}
+
+.course-topics {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.course-topics > h2 {
+    grid-column: 1 / -1;
+}
+
+@media (min-width: 64rem) {
+
+    .course-topics {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+.table-wrapper {
+    max-width: 100%;
+    overflow-x: auto;
 }
 
 }
