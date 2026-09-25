@@ -49,8 +49,8 @@
             <p>Fields labelled "required" must be completed. Other fields are optional.</p>
             <!-- GET demonstrates form encoding. A real service needs a secure backend. -->
             <form id="enquiry-form" action="contact.html#practice-result" method="get" aria-describedby="form-help">
-                <fieldset>
-                    <legend>Your practice contact details</legend>
+                <fieldset class="form-grid">
+                     <legend>Your practice contact details</legend>
                     <p>
                         <label for="full-name">Full name (required)</label>
                         <input id="full-name" name="full_name" type="text" autocomplete="name" minlength="2" maxlength="80" required>
@@ -66,7 +66,7 @@
                         <small id="phone-help">Use a fictional number. Include the country code when practising an international format.</small>
                     </p>
                 </fieldset>
-                <fieldset>
+                <fieldset class="form-grid">
                     <legend>Your learning interests</legend>
                     <p>
                         <label for="course">Course of interest (required)</label>
@@ -87,24 +87,24 @@
                         <input id="learners" name="learners" type="number" min="1" max="10" step="1" value="1" aria-describedby="learners-help" required>
                         <small id="learners-help">Enter a whole number from 1 to 10.</small>
                     </p>
-                    <fieldset>
+                    <fieldset class="form-group-wide">
                         <legend>Preferred learning mode (required)</legend>
                         <p class="choice"><input id="mode-online" name="learning_mode" type="radio" value="online" required> <label for="mode-online">Online learning</label></p>
                         <p class="choice"><input id="mode-workshop" name="learning_mode" type="radio" value="workshop" required> <label for="mode-workshop">In-person workshop</label></p>
                     </fieldset>
-                    <fieldset>
-                        <legend>Topics you would like help with (optional)</legend>
+                    <fieldset class="form-group-wide">
+                            <legend>Topics you would like help with (optional)</legend>
                         <p class="choice"><input id="topic-files" name="topics" type="checkbox" value="files"> <label for="topic-files">Organising files</label></p>
                         <p class="choice"><input id="topic-data" name="topics" type="checkbox" value="data"> <label for="topic-data">Working with data</label></p>
                         <p class="choice"><input id="topic-web" name="topics" type="checkbox" value="web"> <label for="topic-web">Creating web pages</label></p>
                     </fieldset>
-                    <p>
+                    <p class="form-group-wide">
                         <label for="message">What would you like to learn? (required)</label>
                         <textarea id="message" name="message" rows="5" minlength="20" maxlength="600" aria-describedby="message-help" required></textarea>
                         <small id="message-help">Write 20 to 600 characters. For example: I want to create a simple monthly sales report.</small>
                     </p>
                 </fieldset>
-                <fieldset>
+                <fieldset class="acknowledgement">
                     <legend>Practice acknowledgement</legend>
                     <p class="choice"><input id="practice-only" name="practice_only" type="checkbox" value="yes" required> <label for="practice-only">I am using fictional details and understand that this is a practice enquiry (required).</label></p>
                 </fieldset>

@@ -137,6 +137,12 @@ button:hover,
 .button:hover {
     background-color: var(--color-primary-hover);
 }
+
+/* Form submit button spacing */
+form > button {
+    margin-top: var(--space-md);
+}
+
 footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #728695; font-size: 0.9rem; }
 /* =========================================
    Larger-screen enhancement
@@ -182,6 +188,72 @@ footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #728695; fon
     margin-top: 0;
 }
 
+/* Responsive form layout */
+form {
+    max-width: 60rem;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+}
+
+.form-grid > p,
+.form-grid > fieldset {
+    margin: 0;
+}
+
+.form-group-wide {
+    grid-column: 1 / -1;
+}
+
+fieldset {
+    border-color: var(--color-border);
+    border-radius: var(--radius-md);
+}
+
+legend {
+    padding: 0 var(--space-sm);
+}
+
+input,
+select,
+textarea {
+    border-radius: var(--radius-sm);
+}
+
+textarea {
+    min-height: 8rem;
+}
+
+.choice {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-sm);
+}
+
+.choice input {
+    flex: 0 0 auto;
+    margin-top: 0.35rem;
+}
+
+.choice label {
+    margin: 0;
+}
+
+.acknowledgement {
+    margin-top: var(--space-lg);
+    background-color: var(--color-surface-soft);
+}
+
+@media (max-width: 30rem) {
+    form > button {
+        width: 100%;
+    }
+}
+
+/* Larger-screen enhancement */
 @media (min-width: 48rem) {
 
     header {
@@ -205,6 +277,10 @@ footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #728695; fon
 
 .course-topics > h2 {
     grid-column: 1 / -1;
+}
+
+.form-grid {
+    grid-template-columns: repeat(2, 1fr);
 }
 
 @media (min-width: 64rem) {
