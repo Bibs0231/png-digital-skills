@@ -284,6 +284,19 @@ textarea {
     margin: var(--space-md) 0 0;
 }
 
+/* A4: JavaScript form feedback */
+
+.message-counter {
+    color: var(--color-muted);
+    margin-top: var(--space-sm);
+}
+
+.message-feedback:not(:empty) {
+    color: #9b1c1c;
+    font-weight: bold;
+    margin-top: var(--space-sm);
+}
+
 @media (max-width: 30rem) {
     form > button {
         width: 100%;

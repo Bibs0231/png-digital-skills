@@ -6,6 +6,7 @@
     <meta name="description" content="Read the proposed service contact information and practise a course enquiry using an accessible HTML form.">
     <title>Contact and Enquiry | PNG Digital Skills Hub</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/contact.js" defer></script>
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -100,8 +101,27 @@
                     </fieldset>
                     <p class="form-group-wide">
                         <label for="message">What would you like to learn? (required)</label>
-                        <textarea id="message" name="message" rows="5" minlength="20" maxlength="600" aria-describedby="message-help" required></textarea>
-                        <small id="message-help">Write 20 to 600 characters. For example: I want to create a simple monthly sales report.</small>
+<textarea
+    id="message"
+    name="message"
+    rows="5"
+    minlength="20"
+    maxlength="600"
+    aria-describedby="message-help message-count message-feedback"
+    required></textarea>
+
+<small id="message-help">
+    Write 20 to 600 characters. For example:
+    I want to create a simple monthly sales report.
+</small>
+
+<small id="message-count" class="message-counter">
+    0 / 600 characters
+</small>
+
+<small id="message-feedback"
+       class="message-feedback"
+       aria-live="polite"></small>
                     </p>
                 </fieldset>
                 <fieldset class="acknowledgement">
