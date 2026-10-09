@@ -6,6 +6,7 @@
     <meta name="description" content="Compare three beginner course concepts covering spreadsheets, reporting and HTML web pages.">
     <title>Courses | PNG Digital Skills Hub</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/courses.js" defer></script>
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -26,6 +27,27 @@
 
         <section class="course-topics" aria-labelledby="topics-heading">
             <h2 id="topics-heading">Course topics</h2>
+            <!-- A4: Interactive course search -->
+<div class="course-filter" id="course-filter" hidden>
+    <label for="course-search">Search available courses</label>
+
+    <div class="course-filter-controls">
+        <input
+            type="search"
+            id="course-search"
+            placeholder="e.g. reporting, spreadsheets or web"
+            autocomplete="off"
+        >
+
+        <button type="button" id="reset-course-search">
+            Reset search
+        </button>
+    </div>
+
+    <p id="course-search-status" role="status">
+        Showing all courses.
+    </p>
+</div>
             <!-- Each article makes sense as a separate course description. -->
             <article id="spreadsheets">
                 <h3>Spreadsheet Foundations</h3>

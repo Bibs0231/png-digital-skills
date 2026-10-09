@@ -247,6 +247,43 @@ textarea {
     background-color: var(--color-surface-soft);
 }
 
+/* =========================================
+   A4: Interactive course search
+   ========================================= */
+
+.course-filter {
+    grid-column: 1 / -1;
+    padding: var(--space-lg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background-color: var(--color-surface-soft);
+}
+
+.course-filter label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: var(--space-sm);
+}
+
+.course-filter-controls {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-sm);
+}
+
+.course-filter-controls input {
+    width: 100%;
+    min-width: 0;
+}
+
+.course-filter-controls button {
+    width: 100%;
+}
+
+#course-search-status {
+    margin: var(--space-md) 0 0;
+}
+
 @media (max-width: 30rem) {
     form > button {
         width: 100%;
@@ -255,6 +292,15 @@ textarea {
 
 /* Larger-screen enhancement */
 @media (min-width: 48rem) {
+
+    .course-filter-controls {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+}
+
+.course-filter-controls button {
+    width: auto;
+}
 
     header {
         display: flex;
