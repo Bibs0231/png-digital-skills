@@ -2,7 +2,7 @@
 
 ## Assessment
 
-**ISO229 Web Design - Assessment 3**  
+**ISO229 Web Design - Assessment 3**
 **Responsive HTML5 + CSS3 Website**
 
 ## Student details
@@ -171,4 +171,73 @@ I confirm that AI assistance has been disclosed accurately. I reviewed,
 implemented, tested and documented the submitted website and understand
 the code and design decisions used in the final Assessment 3 project.
 
-Date: **26-Sep-2026**
+## Assessment 4 – JavaScript Integration and Final Project
+
+### AI Assistance Provided
+
+During Assessment 4, I used ChatGPT as a learning and development assistant while extending the PNG Digital Skills Hub website.
+
+AI assistance included:
+
+- Understanding the Assessment 4 development and submission requirements.
+- Planning two meaningful JavaScript features.
+- Providing example code for an interactive course search and filter.
+- Providing example code for enquiry-form validation and feedback.
+- Explaining JavaScript event listeners, DOM element selection, search matching and input validation.
+- Suggesting improvements to HTML and CSS integration.
+- Providing functional, responsive and accessibility testing guidance.
+- Assisting with README updates, testing documentation and the Project Summary.
+
+### JavaScript Features Implemented
+
+**Feature 1 – Interactive Course Search**
+
+I implemented the suggested JavaScript search functionality in Visual Studio Code and tested it through the browser.
+
+Testing included successful keyword searches, searches with no matching courses and restoring all three courses using the Reset button.
+
+**Feature 2 – Enquiry Form Validation**
+
+I implemented JavaScript functionality to display a live message-character counter and provide additional validation.
+
+I tested the rejection of messages containing only spaces, confirmed that an error message was displayed and completed a valid practice submission using the existing GET form behaviour.
+
+### Student Contribution
+
+I reviewed and applied the suggested code to my existing website, tested the changes using browser development tools, checked the resulting page behaviour and committed the completed functionality to GitHub.
+
+I retained the semantic HTML, accessible form controls and responsive CSS layouts developed during the earlier assessments.
+
+### Understanding and Learning
+
+Through Assessment 4, I improved my understanding of:
+
+- JavaScript DOM manipulation.
+- Event handling using `addEventListener()`.
+- Selecting HTML elements using JavaScript.
+- Filtering content with JavaScript.
+- Updating webpage content without reloading.
+- Using `textContent` to display feedback.
+- Using `setCustomValidity()` for additional form validation.
+- Integrating JavaScript with HTML5 and CSS3.
+- Testing JavaScript features using browser developer tools.
+
+### Testing and Verification
+
+The implemented JavaScript features were tested locally using Google Chrome.
+
+Supporting evidence is recorded in `evidence/A4-FUNCTIONAL-TESTS.md` and the associated screenshots.
+
+Additional testing results should be updated in that record as final verification is completed.
+
+### Declaration
+
+I acknowledge that ChatGPT contributed development guidance, example code, explanations and documentation assistance throughout this project.
+
+I reviewed and implemented the suggested changes, tested the website functionality and maintained the project through Git and GitHub.
+
+I understand that the website remains a student demonstration and does not provide real enquiry processing or enrolment services.
+
+**Student:** Bill Junior Lagani
+**Course:** ISO229 Web Design
+**Assessment:** Assessment 4 – Individual Integrated Web Design Project

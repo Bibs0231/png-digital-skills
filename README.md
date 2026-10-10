@@ -1,24 +1,12 @@
-# PNG Digital Skills Hub - ISO229 Assessment 3
+# PNG Digital Skills Hub - ISO229 Assessment 4
 
-PNG Digital Skills Hub is a three-page HTML5 and CSS3 student website
-developed for ISO229 Web Design.
+PNG Digital Skills Hub is a three-page educational demonstration website developed for ISO229 Web Design at the Papua New Guinea University of Technology.
 
-Assessment 3 extends the website completed for Assessment 2 by adding
-responsive CSS3 styling, Flexbox, CSS Grid, CSS custom properties,
-media queries, responsive form layouts and improved visual consistency.
+The project was progressively developed through Assessments 2, 3 and 4. Assessment 2 established the semantic HTML5 structure, course information and practice enquiry form. Assessment 3 introduced responsive CSS3 styling using Flexbox, CSS Grid, custom properties and media queries.
 
-The website demonstrates semantic HTML5 structure, accessible navigation,
-responsive layouts, course comparison content, responsive cards,
-a substantial HTML5 enquiry form and browser-based validation.
+Assessment 4 extends the website with two meaningful JavaScript features: an interactive course search and filter, and enhanced practice enquiry validation with live character counting and accessible error feedback.
 
-The project represents a fictional educational service for beginners in
-Papua New Guinea who want to build practical digital skills for study,
-office work and small-business activities.
-
-This project began from an AI-assisted learning draft. I reviewed,
-customised, implemented, tested and documented the Assessment 3
-responsive improvements before submission. AI assistance is disclosed
-in `AI-USE-DECLARATION.md`.
+The website demonstrates introductory digital-skills learning concepts for students, office workers and small-business owners in Papua New Guinea. It is a fictional educational service and does not provide real enrolments or email submissions.
 
 ## Student and submission details
 
@@ -27,8 +15,8 @@ in `AI-USE-DECLARATION.md`.
 - GitHub username: **Bibs0231**
 - GitHub repository URL: `https://github.com/Bibs0231/png-digital-skills`
 - Published GitHub Pages URL: [Live GitHub Pages website](https://bibs0231.github.io/png-digital-skills/)
-- Assessment: **ISO229 Web Design - Assessment 3**
-- Due date: **25 September 2026, 11:59 pm**
+- Assessment: **ISO229 Web Design - Assessment 4**
+- Due date: **09 October 2026, 11:59 pm**
 
 ## Purpose and audience
 
@@ -251,6 +239,94 @@ AI assistance included guidance on:
 - responsive testing strategy; and
 - documentation structure.
 
-I personally reviewed, implemented, tested, modified and committed the
-submitted website changes. Full details are recorded in
-`AI-USE-DECLARATION.md`.
+## Assessment 4 – JavaScript Integration
+
+Assessment 4 extends the responsive HTML5 and CSS3 website developed for Assessments 2 and 3 with meaningful JavaScript functionality.
+
+### JavaScript Feature 1 – Interactive Course Search
+
+**Files:** `courses.html`, `css/styles.css`, `js/courses.js`
+
+An interactive search field was added to the Courses page.
+
+Users can:
+
+- Enter keywords to find matching courses.
+- View matching course descriptions immediately without reloading the page.
+- See the number of matching courses.
+- Receive feedback when no courses match.
+- Reset the search to display all three courses.
+
+The search works with the existing responsive CSS Grid layout.
+
+### JavaScript Feature 2 – Enquiry Form Validation and Feedback
+
+**Files:** `contact.html`, `css/styles.css`, `js/contact.js`
+
+JavaScript enhances the existing practice enquiry form.
+
+Features include:
+
+- Live message-character counting.
+- Additional validation for meaningful text.
+- Rejection of messages containing only whitespace.
+- Visible validation error feedback.
+- Accessible feedback associated with the message field.
+- Continued use of built-in HTML5 validation.
+
+A valid practice enquiry continues to use the demonstration GET submission method. No real booking, email or enrolment is created.
+
+### Technologies Used
+
+- HTML5 – semantic page structure and form controls.
+- CSS3 – typography, colours, spacing and responsive visual design.
+- Flexbox – navigation and header alignment.
+- CSS Grid – responsive course cards and form layouts.
+- Media queries – mobile, tablet and desktop layouts.
+- JavaScript – interactive course search and form validation.
+- Git and GitHub – source control and development history.
+- GitHub Pages – public website publication.
+
+### Assessment 4 Testing
+
+JavaScript functionality was tested locally using Google Chrome.
+
+The following behaviours were demonstrated:
+
+- Course search returns matching results.
+- Unmatched searches display appropriate feedback.
+- Reset restores the complete course list.
+- The message-character counter updates during input.
+- Whitespace-only messages are rejected.
+- Valid practice enquiries are accepted and the page reloads.
+
+Earlier Assessment 3 testing covered responsive viewports of 375px, 768px and 1440px.
+
+Additional Assessment 4 browser, responsive, accessibility and validation results are recorded in `evidence/A4-FUNCTIONAL-TESTS.md`. Any checks not yet completed are identified as pending in that file.
+
+### Assessment 4 Evidence
+
+The `evidence/` folder contains:
+
+- `a4-course-filter.png` – successful interactive course search.
+- `a4-course-no-results.png` – search with no matching courses.
+- `a4-form-validation.png` – JavaScript message validation.
+- `A4-FUNCTIONAL-TESTS.md` – functional and responsive testing record.
+
+### Project Summary
+
+The Assessment 4 submission includes a 300–500-word Project Summary covering the website purpose, target audience, technologies, implemented features, testing, challenges, limitations, lessons learned and AI use.
+
+### Known Limitations
+
+The website remains a fictional educational demonstration. It has no backend database, email service or real enrolment functionality.
+
+The practice enquiry uses GET parameters, so only fictional information should be entered.
+
+### AI Use Declaration
+
+ChatGPT assisted with assessment interpretation, JavaScript development guidance, troubleshooting, testing strategy and documentation.
+
+The student reviewed, implemented and locally tested the submitted changes.
+
+Further details are recorded in `AI-USE-DECLARATION.md`.
